@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wisata Agam | Home</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+  </head>
+  <body onload="spinnerLoader()">
+    <div id="spinner" class="spinner-container">
+      <div class="spinner"></div>
+    </div>
+    <div class="header_section">
+      <div class="container-fluid bg-light">
+        <nav
+          style="z-index: 99; width: 100%; right: 0"
+          class="navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <div class="container">
+            <a
+              class="navbar-brand"
+              style="font-size: 24px; font-weight: 600"
+              href="index.html"
+            >
+              <img
+                src="gambar/logoagam.png"
+                width="30"
+                alt="Web Wisata"
+                class="me-2"
+                loading="lazy"
+              />
+              Wisata Agam</a
+            >
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex">
+              <div class="menu py-2">
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">Tentang Agam</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="peninggalan-sejarah.html"
+                        >Peninggalan Sejarah</a
+                      >
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link" href="objek_wisata.html"
+                        >Objek Wisata</a
+                      >
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <form class="d-flex align-items-center" role="search">
+                        <input
+                          class="form-control me-2"
+                          style="font-size: 12px"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                        <button
+                          type="submit"
+                          style="
+                            outline: none;
+                            border: 0;
+                            background-color: transparent;
+                          "
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="banner_section">
+        <div class="container-fluid p-0">
+          <div id="carouselExampleCaptions" class="carousel slide p-0">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div
+                  style="
+                    background-image: url('gambar/bg1.avif');
+                    width: 100%;
+                    height: 88vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    position: relative;
+                    border: 1px solid black;
+                  "
+                >
+                  <div
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      left: 0;
+                      right: 0;
+                      background: rgb(2, 0, 36);
+                      background: linear-gradient(
+                        180deg,
+                        rgba(2, 0, 36, 0) 0%,
+                        rgba(0, 0, 0, 0.4) 87%,
+                        rgba(0, 0, 0, 1) 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-primary">Akhir pekan kemana ?</h5>
+                  <p class="text-light">coba berlibur ke Daerah agam ini</p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div
+                  style="
+                    background-image: url('gambar/taman-muko-muko.jpg');
+                    width: 100%;
+                    height: 88vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      left: 0;
+                      right: 0;
+                      background: rgb(2, 0, 36);
+                      background: linear-gradient(
+                        180deg,
+                        rgba(2, 0, 36, 0) 0%,
+                        rgba(0, 0, 0, 0.4) 70%,
+                        rgba(0, 0, 0, 1) 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-primary">
+                    Bingung Cari Tempat Rekomendasi Beerlibur ?
+                  </h5>
+                  <p class="text-light">
+                    Di sini kami menyediakan Tempat bagi anda untuk berlibur
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div
+                  style="
+                    background-image: url('gambar/airterjunmm.png');
+                    width: 100%;
+                    height: 88vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      left: 0;
+                      right: 0;
+                      background: rgb(2, 0, 36);
+                      background: linear-gradient(
+                        180deg,
+                        rgba(2, 0, 36, 0) 0%,
+                        rgba(0, 0, 0, 0.4) 70%,
+                        rgba(0, 0, 0, 1) 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-primary">
+                    Tempat yang Cocok buat berlibur ?
+                  </h5>
+                  <p class="text-light">
+                    Agam menyediakan banyak sekali tempat berlibur Anda di jamin
+                    tidak akan boan
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
